@@ -17,10 +17,12 @@ For the calculation of the conclusion, the method of p-values and not the one of
 If H0 can be rejected, this means that the null hypothesis is rejected. With a significance level of α = 0.05, this is done with a confidence level of 95%. This means that the results are statistically significant and are not based on chance, but that there is actually a real pattern or relationship in the data set. 
 Null hypothesis (H₀):
 It is assumed that the mean cholesterol level is the same in diagnosed and undiagnosed individuals:
+
 H₀ = "The mean cholesterol level is the same in diagnosed and undiagnosed individuals".
 
 Alternative hypothesis (H₁):
 It is assumed that the mean cholesterol level is higher in diagnosed individuals than in undiagnosed individuals:
+
 H₁ = "The average cholesterol level is higher in diagnosed individuals than in undiagnosed individuals".
 
 3. Calculations
