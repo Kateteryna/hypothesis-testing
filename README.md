@@ -1,3 +1,5 @@
+## Hypothesis testing: Comparing Two Population Means
+
 For the practical implementation of the mean comparison for two populations, the Heart Disease dataset from Kaggle was used (Source: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset).  
 
 <img width="292" alt="daten (1)" src="https://github.com/user-attachments/assets/30f99669-87b5-4c18-865c-6ebd7646d6dd">
