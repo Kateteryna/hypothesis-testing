@@ -6,12 +6,12 @@ For the practical implementation of the mean comparison for two populations, the
 
 The dataset contains medical and demographic information from 1025 anonymized patients. Researchers and data analysts use it to identify patterns and correlations that can help diagnose heart disease. Our study focused specifically on the serum cholesterol column.
 
-1. Data preparation
+### 1. Data preparation
 
 First, the cholesterol column of the dataset was checked for missing values (NaN) and anomalous outliers. None were found and the data types were suitable for further analysis. Therefore, no changes were made to the dataset. Instead, it was divided into two groups: Patients diagnosed with heart disease (526) and healthy patients (499).
 
 
-2. Definition of the hypotheses and the significance level
+### 2. Definition of the hypotheses and the significance level
 
 The significance level (α) is set at 0.05, which means that the probability of a difference being considered significant is 5%. This setting is a common practice in statistical analyses to determine whether differences between populations are significant.
 For the calculation of the conclusion, the method of p-values and not the one of confidence intervals has been used.
@@ -27,7 +27,7 @@ It is assumed that the mean cholesterol level is higher in diagnosed individuals
 
 H₁ = "The average cholesterol level is higher in diagnosed individuals than in undiagnosed individuals".
 
-3. Calculations
+### 3. Calculations
 a) Mean value and standard deviation:
 
 Means and standard deviations were calculated for both populations (diagnosed and undiagnosed individuals). 
@@ -54,7 +54,7 @@ The p-value is calculated using the cumulative distribution function (CDF) of th
 
 The p-value indicates the probability of obtaining a T-score or greater for a given level of significance (here α = 0.05) if the null hypothesis (H0) were true. A small p-value indicates that the data show significant differences between the groups.
 
-4. Interpretation of the results
+### 4. Interpretation of the results
 
 Since the calculated p-value ( 0.9993368838319615) is greater than the significance level, the null hypothesis (H₀) cannot be rejected. This means that the mean cholesterol level is not significantly different in diagnosed and undiagnosed individuals.
 
