@@ -52,7 +52,7 @@ The p-value is calculated using the cumulative distribution function (CDF) of th
 
 The p-value indicates the probability of obtaining a T-score or greater for a given level of significance (here α = 0.05) if the null hypothesis (H0) were true. A small p-value indicates that the data show significant differences between the groups.
 
-4. interpretation of the results
+4. Interpretation of the results
 
 Since the calculated p-value ( 0.9993368838319615) is greater than the significance level, the null hypothesis (H₀) cannot be rejected. This means that the mean cholesterol level is not significantly different in diagnosed and undiagnosed individuals.
 
